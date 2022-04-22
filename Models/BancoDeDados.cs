@@ -13,12 +13,5 @@ namespace Crud1.Models
         {
             optionsBuilder.UseSqlServer(connectionString: @"Server=(localdb)\mssqllocaldb;Database=Crud1;Integrated Security=True");
         }
-
-        /*
-        public BancoDeDados(DbContextOptions<BancoDeDados> options) : base(options)
-        {
-
-        }
-        */
     }
 }

@@ -39,7 +39,7 @@ namespace Crud1.Controllers
                 return NotFound();
             }
 
-            return View(cliente);
+            return View(Cliente.ConvertCliente(cliente));
         }
 
         // GET: Cliente/Create
